@@ -58,3 +58,6 @@ target/
 
 # Configure
 config.py
+
+# privacy information
+key/

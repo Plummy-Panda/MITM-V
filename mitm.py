@@ -60,8 +60,11 @@ def handle_cipher():
 
 
 def main():
-    # get the login info, which is extracted from the packet
+
+    # handle the original cipher msg and
+    # generate the new cypher msg which allows us to login as admin
     handle_cipher()
+    # read the result of handle cipher
     f = open('data/newMsg.txt', 'r')
     msg = f.read()
 
